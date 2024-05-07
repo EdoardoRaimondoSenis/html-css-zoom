@@ -14,7 +14,7 @@ header {
     position: fixed;
     background-color: black;
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     padding-top: 20px;
     z-index: 99;
 }
@@ -38,12 +38,14 @@ a {
 }
 
 main {
+    position: absolute;
+    top: 17vh;
+    margin-bottom: 20vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-
 
 .utente {
     position: relative;
@@ -75,9 +77,50 @@ main {
 }
 
 #contcontrolli {
+    position: fixed;
+    position: sticky;
+    bottom: 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     background-color: rgb(44, 44, 44);
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.cent {
+    margin-left: -60px;
+}
+
+.disp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+}
+
+.disp img {
+    width: 30px;
+}
+
+.frecc {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.end {
+    background-color: rgba(211, 211, 211, 0.504);
+    color: crimson;
+    padding: 3vh;
+    margin: 0;
 }
