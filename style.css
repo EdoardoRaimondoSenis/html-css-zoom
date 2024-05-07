@@ -1,0 +1,19 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+header span {
+    background-color: rgba(211, 211, 211, 0.504);
+    color: white;
+}
